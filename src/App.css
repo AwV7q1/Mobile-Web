@@ -14,7 +14,6 @@
     background: #aaaaaa;
     height: 764px;
     width: 393px;
-    margin: 0 auto;
     /*width: 100%;*/
     /*min-width: 320px;*/
     /*max-width: 430px;*/
@@ -27,17 +26,18 @@
 .header {
     height: 52px;
     background: #25a806;
-    top: 0;
-    position: sticky;
+    /*top: 0;*/
+    /*position: sticky;*/
 
 }
 
 .body {
     /*height: calc(100dvh - 101px);*/
     height: calc(764px - 101px);
+    overflow-y: auto;
 
-    /*margin-top: 52px;*/
-    /*margin-bottom: 49px;*/
+    padding-top:20px;
+    padding-bottom:20px;
     /*width: 500px;*/
     /*height: 100%;*/
 }
@@ -45,7 +45,7 @@
 .nav {
     height: 48px;
     border-top: 1px solid darkslategray;
-    background: rgba(42, 29, 174, 0.6);
-    position: fixed;
-    width: 393px;
+    background: rgb(195, 53, 238);
+    /*position: fixed;*/
+    /*width: 393px;*/
 }
