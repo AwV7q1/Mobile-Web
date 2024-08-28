@@ -34,7 +34,7 @@
 
 .body {
     /*height: calc(100dvh - 101px);*/
-    height: calc(100dvh - 101px);
+    height: calc(764px - 101px);
 
     /*margin-top: 52px;*/
     /*margin-bottom: 49px;*/
@@ -45,7 +45,7 @@
 .nav {
     height: 48px;
     border-top: 1px solid darkslategray;
-    background: #4eaaff;
-    bottom: 0;
-    position: sticky;
+    background: rgba(42, 29, 174, 0.6);
+    position: fixed;
+    width: 393px;
 }
