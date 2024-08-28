@@ -12,7 +12,7 @@
 
 .container {
     background: #aaaaaa;
-    /*height: 764px;*/
+    height: 764px;
     width: 393px;
     margin: 0 auto;
     /*width: 100%;*/
@@ -45,7 +45,7 @@
 .nav {
     height: 48px;
     border-top: 1px solid darkslategray;
-    background: #25a806;
+    background: #4eaaff;
     bottom: 0;
     position: sticky;
 }
