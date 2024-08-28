@@ -6,7 +6,7 @@
 
 #app {
     width: 100dvw;
-    height: 100dvh;
+    height: 100svh;
 }
 
 .container {
@@ -33,7 +33,7 @@
 
 .body {
     /*height: calc(100dvh - 101px);*/
-    height: calc(100dvh - 101px);
+    height: calc(100svh - 101px);
 
     /*margin-top: 52px;*/
     /*margin-bottom: 49px;*/
@@ -44,7 +44,7 @@
 .nav {
     height: 48px;
     border-top: 1px solid darkslategray;
-    background: #29b872;
+    background: #c335ee;
     /*bottom: 0;*/
     /*position: sticky;*/
 }
