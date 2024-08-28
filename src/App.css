@@ -13,7 +13,7 @@
 .container {
     background: #aaaaaa;
     height: 764px;
-    overflow: hidden;
+    /*overflow: hidden;*/
     width: 393px;
     /*width: 100%;*/
     /*min-width: 320px;*/
@@ -34,11 +34,11 @@
 
 .body {
     /*height: calc(100dvh - 101px);*/
-    height: calc(764px - 141px);
+    height: calc(764px - 101px);
     overflow-y: auto;
 
-    padding-top:20px;
-    padding-bottom:20px;
+    /*padding-top:20px;*/
+    /*padding-bottom:20px;*/
     /*width: 500px;*/
     /*height: 100%;*/
 }
@@ -46,7 +46,7 @@
 .nav {
     height: 48px;
     border-top: 1px solid darkslategray;
-    background: rgb(195, 53, 238);
+    background: rgb(41, 184, 114);
     bottom: 0;
     position: sticky;
     transition: 0.25s;
