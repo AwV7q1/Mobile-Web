@@ -1,54 +1,45 @@
-.center-element {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden; /* Ẩn scroll bar của toàn bộ trang */
+}
+
+.layout {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
 }
-
-#app {
-    width: 100dvw;
-    height: 100dvh;
-    background: #535bf2;
-}
-
-.container {
-    background: #aaaaaa;
-    width: 393px;
-    height: 764px;
-    /*overflow: hidden;*/
-    /*width: 100%;*/
-    /*min-width: 320px;*/
-    /*max-width: 430px;*/
-    /*height: 100%;*/
-    /*min-height: 568px;*/
-    /*max-height: 932px;*/
-}
-
 
 .header {
     height: 52px;
-    background: #25a806;
-    /*top: 0;*/
-    /*position: sticky;*/
-    /*transition: 0.25s;*/
+    background-color: #f1f1f1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
 }
 
 .body {
-    /*height: calc(100dvh - 101px);*/
-    height: calc(764px - 101px);
-    overflow-y: auto;
-
-    /*padding-top:20px;*/
-    /*padding-bottom:20px;*/
-    /*width: 500px;*/
-    /*height: 100%;*/
+    flex: 1;
+    margin-top: 52px; /* Đảm bảo nội dung body không bị che bởi header */
+    margin-bottom: 48px; /* Đảm bảo nội dung body không bị che bởi navigation */
+    overflow-y: auto; /* Cho phép scroll khi nội dung dài */
+    padding: 10px;
 }
 
-.nav {
+.navigate {
     height: 48px;
-    border-top: 1px solid darkslategray;
-    background: rgb(255, 10, 148);
-    /*bottom: 0;*/
-    /*position: sticky;*/
-    /*transition: 0.25s;*/
-    /*width: 393px;*/
+    background-color: #ccc;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
 }
