@@ -26,15 +26,17 @@
 .header {
     height: 52px;
     background: #4eaaff;
-    /*top: 0;*/
-    /*position: sticky;*/
+    top: 0;
+    position: sticky;
 
 }
 
 .body {
     /*height: calc(100dvh - 101px);*/
     height: calc(100dvh - 101px);
+
     /*margin-top: 52px;*/
+    /*margin-bottom: 49px;*/
     /*width: 500px;*/
     /*height: 100%;*/
 }
@@ -43,6 +45,6 @@
     height: 48px;
     border-top: 1px solid darkslategray;
     background: #29b872;
-    /*bottom: 0;*/
-    /*position: sticky;*/
+    bottom: 0;
+    position: sticky;
 }
