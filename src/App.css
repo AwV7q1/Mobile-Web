@@ -6,14 +6,15 @@
 
 #app {
     width: 100dvw;
-    height: 100svh;
+    height: 100dvh;
+    background: #535bf2;
 }
 
 .container {
     background: #aaaaaa;
     /*height: 764px;*/
-    margin: auto;
     width: 393px;
+    margin: 0 auto;
     /*width: 100%;*/
     /*min-width: 320px;*/
     /*max-width: 430px;*/
@@ -26,14 +27,14 @@
 .header {
     height: 52px;
     background: #25a806;
-    /*top: 0;*/
-    /*position: sticky;*/
+    top: 0;
+    position: sticky;
 
 }
 
 .body {
     /*height: calc(100dvh - 101px);*/
-    height: calc(100svh - 101px);
+    height: calc(100dvh - 101px);
 
     /*margin-top: 52px;*/
     /*margin-bottom: 49px;*/
@@ -44,7 +45,7 @@
 .nav {
     height: 48px;
     border-top: 1px solid darkslategray;
-    background: #c335ee;
-    /*bottom: 0;*/
-    /*position: sticky;*/
+    background: #ff0a94;
+    bottom: 0;
+    position: sticky;
 }
