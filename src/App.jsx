@@ -3,7 +3,7 @@ import './App.css'
 function App() {
 
     return (
-        <div id='app' className='center-element'>
+        <div id='app' >
             <div className='container'>
                 <div className="header center-element">
                     header
