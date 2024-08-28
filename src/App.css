@@ -25,9 +25,9 @@
 
 .header {
     height: 52px;
-    background: #4eaaff;
-    top: 0;
-    position: sticky;
+    background: #25a806;
+    /*top: 0;*/
+    /*position: sticky;*/
 
 }
 
@@ -45,6 +45,6 @@
     height: 48px;
     border-top: 1px solid darkslategray;
     background: #29b872;
-    bottom: 0;
-    position: sticky;
+    /*bottom: 0;*/
+    /*position: sticky;*/
 }
